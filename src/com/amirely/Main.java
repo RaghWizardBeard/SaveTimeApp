@@ -1,4 +1,4 @@
-package com.amirely;
+package src.com.amirely;
 
 public class Main {
 
