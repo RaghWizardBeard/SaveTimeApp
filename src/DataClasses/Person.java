@@ -1,9 +1,9 @@
 package DataClasses;
 
 
-import com.sun.jndi.cosnaming.IiopUrl;
-
 import java.util.Date;
+
+
 
 abstract class Person
 {
@@ -159,6 +159,34 @@ abstract class Person
         this.country = country;
     }
 
+    public int getPhoneNumber()
+    {
+        return phoneNumber;
+    }
 
+    public void setPhoneNumber(int phoneNumber)
+    {
+        this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", userName='" + userName + '\'' +
+                ", ID=" + ID +
+                ", date=" + date +
+                ", dob=" + dob +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipCode=" + zipCode +
+                ", country='" + country + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                '}';
+    }
 
 }
