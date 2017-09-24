@@ -1,6 +1,5 @@
-package src.amirely;
+package AppMain;
 
-import amirely.Tester;
 
 public class Main {
 

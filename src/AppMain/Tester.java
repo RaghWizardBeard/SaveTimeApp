@@ -1,4 +1,4 @@
-package amirely;
+package AppMain;
 
 public class Tester
 
