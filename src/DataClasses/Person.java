@@ -7,21 +7,21 @@ import java.util.Date;
 
 abstract class Person
 {
-    private String firstName;
-    private String lastName;
-    private String userName;
-    private int ID;
-    private Date date;
-    private Date dob;
-    private String email;
-    private String address;
-    private String city;
-    private String state;
-    private int zipCode;
-    private String country;
-    private int phoneNumber;
+    protected String firstName;
+    protected String lastName;
+    protected String userName;
+    protected int ID;
+    protected Date date;
+    protected Date dob;
+    protected String email;
+    protected String address;
+    protected String city;
+    protected String state;
+    protected int zipCode;
+    protected String country;
+    protected int phoneNumber;
 
-    public Person(String firstName, String lastName, String userName, int ID, Date date, Date dob, String email, String address,
+    protected Person(String firstName, String lastName, String userName, int ID, Date date, Date dob, String email, String address,
                   String city, String state, int zipCode, String country, int phoneNumber)
     {
         this.firstName = firstName;
@@ -39,132 +39,132 @@ abstract class Person
         this.phoneNumber = phoneNumber;
     }
 
-    public String getFirstName()
+    protected String getFirstName()
     {
         return firstName;
     }
 
-    public void setFirstName(String firstName)
+    protected void setFirstName(String firstName)
     {
         this.firstName = firstName;
     }
 
-    public String getLastName()
+    protected String getLastName()
     {
         return lastName;
     }
 
-    public void setLastName(String lastName)
+    protected void setLastName(String lastName)
     {
         this.lastName = lastName;
     }
 
-    public String getUserName()
+    protected String getUserName()
     {
         return userName;
     }
 
-    public void setUserName(String userName)
+    protected void setUserName(String userName)
     {
         this.userName = userName;
     }
 
-    public int getID()
+    protected int getID()
     {
         return ID;
     }
 
-    public void setID(int ID)
+    protected void setID(int ID)
     {
         this.ID = ID;
     }
 
-    public Date getDate()
+    protected Date getDate()
     {
         return date;
     }
 
-    public void setDate(Date date)
+    protected void setDate(Date date)
     {
         this.date = date;
     }
 
-    public Date getDob()
+    protected Date getDob()
     {
         return dob;
     }
 
-    public void setDob(Date dob)
+    protected void setDob(Date dob)
     {
         this.dob = dob;
     }
 
-    public String getEmail()
+    protected String getEmail()
     {
         return email;
     }
 
-    public void setEmail(String email)
+    protected void setEmail(String email)
     {
         this.email = email;
     }
 
-    public String getAddress()
+    protected String getAddress()
     {
         return address;
     }
 
-    public void setAddress(String address)
+    protected void setAddress(String address)
     {
         this.address = address;
     }
 
-    public String getCity()
+    protected String getCity()
     {
         return city;
     }
 
-    public void setCity(String city)
+    protected void setCity(String city)
     {
         this.city = city;
     }
 
-    public String getState()
+    protected String getState()
     {
         return state;
     }
 
-    public void setState(String state)
+    protected void setState(String state)
     {
         this.state = state;
     }
 
-    public int getZipCode()
+    protected int getZipCode()
     {
         return zipCode;
     }
 
-    public void setZipCode(int zipCode)
+    protected void setZipCode(int zipCode)
     {
         this.zipCode = zipCode;
     }
 
-    public String getCountry()
+    protected String getCountry()
     {
         return country;
     }
 
-    public void setCountry(String country)
+    protected void setCountry(String country)
     {
         this.country = country;
     }
 
-    public int getPhoneNumber()
+    protected int getPhoneNumber()
     {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber)
+    protected void setPhoneNumber(int phoneNumber)
     {
         this.phoneNumber = phoneNumber;
     }
