@@ -23,32 +23,32 @@ public class Professional extends Client
                 '}';
     }
 
-    private String getBusinessName()
+    public String getBusinessName()
     {
         return businessName;
     }
 
-    private void setBusinessName(String businessName)
+    public void setBusinessName(String businessName)
     {
         this.businessName = businessName;
     }
 
-    private int getBusinessPhoneNumber()
+    public int getBusinessPhoneNumber()
     {
         return businessPhoneNumber;
     }
 
-    private void setBusinessPhoneNumber(int businessPhoneNumber)
+    public void setBusinessPhoneNumber(int businessPhoneNumber)
     {
         this.businessPhoneNumber = businessPhoneNumber;
     }
 
-    private String getBusinessAddress()
+    public String getBusinessAddress()
     {
         return businessAddress;
     }
 
-    private void setBusinessAddress(String businessAddress)
+    public void setBusinessAddress(String businessAddress)
     {
         this.businessAddress = businessAddress;
     }

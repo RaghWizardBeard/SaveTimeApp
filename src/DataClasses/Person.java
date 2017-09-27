@@ -21,7 +21,7 @@ abstract class Person
     protected String country;
     protected int phoneNumber;
 
-    protected Person(String firstName, String lastName, String userName, int ID, Date date, Date dob, String email, String address,
+    public Person(String firstName, String lastName, String userName, int ID, Date date, Date dob, String email, String address,
                   String city, String state, int zipCode, String country, int phoneNumber)
     {
         this.firstName = firstName;
@@ -39,132 +39,132 @@ abstract class Person
         this.phoneNumber = phoneNumber;
     }
 
-    protected String getFirstName()
+    public String getFirstName()
     {
         return firstName;
     }
 
-    protected void setFirstName(String firstName)
+    public void setFirstName(String firstName)
     {
         this.firstName = firstName;
     }
 
-    protected String getLastName()
+    public String getLastName()
     {
         return lastName;
     }
 
-    protected void setLastName(String lastName)
+    public void setLastName(String lastName)
     {
         this.lastName = lastName;
     }
 
-    protected String getUserName()
+    public String getUserName()
     {
         return userName;
     }
 
-    protected void setUserName(String userName)
+    public void setUserName(String userName)
     {
         this.userName = userName;
     }
 
-    protected int getID()
+    public int getID()
     {
         return ID;
     }
 
-    protected void setID(int ID)
+    public void setID(int ID)
     {
         this.ID = ID;
     }
 
-    protected Date getDate()
+    public Date getDate()
     {
         return date;
     }
 
-    protected void setDate(Date date)
+    public void setDate(Date date)
     {
         this.date = date;
     }
 
-    protected Date getDob()
+    public Date getDob()
     {
         return dob;
     }
 
-    protected void setDob(Date dob)
+    public void setDob(Date dob)
     {
         this.dob = dob;
     }
 
-    protected String getEmail()
+    public String getEmail()
     {
         return email;
     }
 
-    protected void setEmail(String email)
+    public void setEmail(String email)
     {
         this.email = email;
     }
 
-    protected String getAddress()
+    public String getAddress()
     {
         return address;
     }
 
-    protected void setAddress(String address)
+    public void setAddress(String address)
     {
         this.address = address;
     }
 
-    protected String getCity()
+    public String getCity()
     {
         return city;
     }
 
-    protected void setCity(String city)
+    public void setCity(String city)
     {
         this.city = city;
     }
 
-    protected String getState()
+    public String getState()
     {
         return state;
     }
 
-    protected void setState(String state)
+    public void setState(String state)
     {
         this.state = state;
     }
 
-    protected int getZipCode()
+    public int getZipCode()
     {
         return zipCode;
     }
 
-    protected void setZipCode(int zipCode)
+    public void setZipCode(int zipCode)
     {
         this.zipCode = zipCode;
     }
 
-    protected String getCountry()
+    public String getCountry()
     {
         return country;
     }
 
-    protected void setCountry(String country)
+    public void setCountry(String country)
     {
         this.country = country;
     }
 
-    protected int getPhoneNumber()
+    public int getPhoneNumber()
     {
         return phoneNumber;
     }
 
-    protected void setPhoneNumber(int phoneNumber)
+    public void setPhoneNumber(int phoneNumber)
     {
         this.phoneNumber = phoneNumber;
     }

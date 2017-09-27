@@ -46,91 +46,91 @@ public class Appointment
                 '}';
     }
 
-    private boolean isAccepted()
+    public boolean isAccepted()
     {
         return accepted;
     }
 
-    private void setAccepted(boolean accepted)
+    public void setAccepted(boolean accepted)
     {
         this.accepted = accepted;
     }
 
-    private boolean isCanceled() {
+    public boolean isCanceled() {
         return canceled;
     }
 
-    private void setCanceled(boolean canceled)
+    public void setCanceled(boolean canceled)
     {
         this.canceled = canceled;
     }
 
-    private String getUsername()
+    public String getUsername()
     {
         return Username;
     }
 
-    private void setUsername(String username)
+    public void setUsername(String username)
     {
         Username = username;
     }
 
-    private Date getDate()
+    public Date getDate()
     {
         return date;
     }
 
-    private void setDate(Date date)
+    public void setDate(Date date)
     {
         this.date = date;
     }
 
-    private Time getTimeStart()
+    public Time getTimeStart()
     {
         return timeStart;
     }
 
-    private void setTimeStart(Time timeStart)
+    public void setTimeStart(Time timeStart)
     {
         this.timeStart = timeStart;
     }
 
-    private Time getTimeStop()
+    public Time getTimeStop()
     {
         return timeStop;
     }
 
-    private void setTimeStop(Time timeStop)
+    public void setTimeStop(Time timeStop)
     {
         this.timeStop = timeStop;
     }
 
-    private int getAppointmentNum()
+    public int getAppointmentNum()
     {
         return appointmentNum;
     }
 
-    private void setAppointmentNum(int appointmentNum)
+    public void setAppointmentNum(int appointmentNum)
     {
         this.appointmentNum = appointmentNum;
     }
 
-    private int getProfessionalPhoneNum()
+    public int getProfessionalPhoneNum()
     {
         return professionalPhoneNum;
     }
 
-    private void setProfessionalPhoneNum(int professionalPhoneNum)
+    public void setProfessionalPhoneNum(int professionalPhoneNum)
     {
         this.professionalPhoneNum = professionalPhoneNum;
     }
 
-    private int getClientPhoneNum()
+    public int getClientPhoneNum()
     {
         return clientPhoneNum;
     }
 
-    private void setClientPhoneNum(int clientPhoneNum)
+    public void setClientPhoneNum(int clientPhoneNum)
     {
         this.clientPhoneNum = clientPhoneNum;
     }
